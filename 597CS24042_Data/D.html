@@ -1,0 +1,77 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="D.css">
+    <script src="D.js" defer></script>
+</head>
+
+<body>
+
+    <div id="sidebar" class="sidebar">
+
+        <button class="nav-button" onclick="toggleSlider('Aadhar-slider', '597CS24042_Aadhar.pdf')">ADDHAR</button>
+        <button class="nav-button"
+            onclick="toggleSlider('Marksheet-slider', '597CS24042_Marksheet.pdf')">MARKSHEET</button>
+        <button class="nav-button" onclick="toggleSlider('Photo-slider', '597CS24042_Photo.pdf')">PHOTO</button>
+        <button class="nav-button" onclick="toggleSlider('FeesRecipt-slider', '597CS24042_FeesRecipt.pdf')">FEES
+            RECIPT</button>
+        <button class="nav-button"
+            onclick="toggleSlider('Attendance-slider', '597CS24042_Attendance.pdf')">ATTENDANCE</button>
+        <button class="nav-button"><a href="A.html">Back To Homepage</a></button>
+    </div>
+
+    <!-- Sliders with PDFs -->
+    <div class="slider" id="Aadhar-slider">
+        <h2>AADHAR DETAILS</h2>
+        <a id="aadhar-download" class="download-btn" href="597CS24042_Aadhar.pdf" download>Download PDF</a>
+        <div class="aadhar">
+            <img src="Demo Aadhar.webp" alt="Photo Of Sample Aadhar Card">
+        </div>
+    </div>
+
+    <div class="slider" id="Marksheet-slider">
+        <h2>MARKSHEET DETAILS</h2>
+        <a id="marksheet-download" class="download-btn" href="597CS24042_Marksheet.pdf" download>Download PDF</a>
+        <div class="marksheet">
+            <img src="Demo Marksheet.webp" alt="Photo Of Sample Marksheet"></class>
+        </div>
+    </div>
+
+    <div class="slider" id="Photo-slider">
+        <h2>PHOTO DETAILS</h2>
+        <a id="photo-download" class="download-btn" href="597CS24042_Photo.pdf" download>Download PDF</a>
+        <div class="photos">
+            <img src="Demo Photo.webp" alt="Photo Of Sample Photo"></class>
+        </div>
+    </div>
+
+    <div class="slider" id="FeesRecipt-slider">
+        <h2>FEES RECIPT DETAILS</h2>
+        <a id="fees-recipt-download" class="download-btn" href="597CS24042_FeesRecipt.pdf" download>Download PDF</a>
+        <div class="feesrecipt">
+            <img src="Demo FeesRecipt.jpg" alt="Photo Of Sample Fees Recipt"></class>
+        </div>
+    </div>
+
+    <div class="slider" id="Attendance-slider">
+        <h2>ATTENDANCE DETAILS</h2>
+        <a id="attendance-download" class="download-btn" href="597CS24042_Attendence.pdf" download>Download PDF</a>
+        <div class="attendance">
+            <img src="Demo Attendence.png" alt="Photo Of Sample Attendance">
+        </div>
+    </div>
+
+    </div>
+    <div class="document-section" id="document-section">
+        <h2>Documents</h2>
+    </div>
+
+    <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
+</body>
+
+</html>

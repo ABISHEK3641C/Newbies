@@ -1,0 +1,74 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Attendence_Sem.css">
+    <script src="Attendance_Sem.js" defer></script>
+</head>
+
+<body>
+
+    <div id="sidebar" class="sidebar">
+        <button class="nav-button" onclick="toggleSlider('Sem1-slider', '597CS24005_Aadhar.pdf')">Sem-1</button>
+        <button class="nav-button" onclick="toggleSlider('Sem2-slider', '597CS24005_Marksheet.pdf')">Sem-2</button>
+        <button class="nav-button" onclick="toggleSlider('Sem3-slider', '597CS24005_Photo.pdf')">Sem-3</button>
+        <button class="nav-button" onclick="toggleSlider('Sem4-slider', '597CS24005_FeesRecipt.pdf')">Sem-4</button>
+        <button class="nav-button" onclick="toggleSlider('Sem5-slider', '597CS24005_Attendance.pdf')">Sem-5</button>
+        <button class="nav-button" onclick="toggleSlider('Sem6-slider', '597CS24005_Attendance.pdf')">Sem-6</button>
+        <button class="nav-button"><a href="D.html">Back To Documents</a></button>
+    </div>
+
+    <!-- Sliders with PDFs -->
+    <div class="slider" id="Sem1-slider">
+        <h2>Sem-1 Attendance</h2>
+        <a id="Sem-1Attendence" class="download-btn" href="597CS24005_Sem-1Attendence.pdf" download>Download The
+            Attendance Of
+            Sem-1</a>
+    </div>
+
+    <div class="slider" id="Sem2-slider">
+        <h2>Sem-2 Attendance</h2>
+        <a id="Sem-2Attendence" class="download-btn" href="597CS24005_Sem-2Attendence.pdf" download>Download The
+            Attendance
+            Of Sem-2</a>
+
+    </div>
+
+    <div class="slider" id="Sem3-slider">
+        <h2>Sem-3 Attendance</h2>
+        <a id="Sem-3Attendence" class="download-btn" href="597CS24005_Sem-3Attendence.pdf" download>Download The
+            Attendance Of
+            Sem-3</a>
+    </div>
+
+    <div class="slider" id="Sem4-slider">
+        <h2>Sem-4 Attendance</h2>
+        <a id="Sem-4Attendence" class="download-btn" href="597CS24005_Sem-4Attendence.pdf" download>Download The
+            Attendance Of Sem-4</a>
+    </div>
+
+    <div class="slider" id="Sem5-slider">
+        <h2>Sem-5 Attendance</h2>
+        <a id="Sem-5Attendence" class="download-btn" href="597CS24005_Sem-5Attendence.pdf" download>Download The
+            Attendance Of Sem-5</a>
+    </div>
+
+    <div class="slider" id="Sem6-slider">
+        <h2>Sem-6 Attendance</h2>
+        <a id="Sem-6Attendence" class="download-btn" href="597CS24005_Sem-6Attendence.pdf" download>Download The
+            Attendance Of Sem-6</a>
+    </div>
+
+    </div>
+    <div class="document-section" id="document-section">
+        <h2>Documents</h2>
+    </div>
+
+    <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
+</body>
+
+</html>
